@@ -121,3 +121,29 @@ a, .intro-left p {
     font-weight: extra-bold;
     color: #1f2937;
 }
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px;
+    align-items: center;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 750px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-quote {
+    align-self: end;
+    font-weight: bold;
+    font-size: 24px;
+}
