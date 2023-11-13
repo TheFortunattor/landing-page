@@ -88,3 +88,34 @@ a, .intro-left p {
     border: none;
     border-radius: 5px;
 }
+
+.image-content {
+    width: 166px;
+    height: 166px;
+    border-color: #3B82F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-info p {
+    text-align: center;
+}
+
+.img-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: min-content;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: xx-large;
+}
