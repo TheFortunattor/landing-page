@@ -78,15 +78,18 @@ a, .intro-left p {
     flex-wrap: nowrap;
 }
 
-.intro-button {
+.intro-button, .signup-right button {
     width: 130px;
     height: 35px;
     background-color: #3B82F6;
     font-weight: bolder;
     color: white;
     font-size: large;
-    border: none;
     border-radius: 5px;
+}
+
+.intro-button {
+    border: none;
 }
 
 .image-content {
@@ -146,4 +149,29 @@ a, .intro-left p {
     align-self: end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3B82F6;
+    width: 1024px;
+    height: 150px;
+    margin: 100px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.signup-container {
+    color: white;
+}
+
+.signup-container p {
+    font-size: 20px;
+}
+
+.signup-right button {
+    border-style: solid;
+    border-color: white;
 }
