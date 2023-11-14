@@ -175,3 +175,12 @@ a, .intro-left p {
     border-style: solid;
     border-color: white;
 }
+
+.footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: large;
+}
