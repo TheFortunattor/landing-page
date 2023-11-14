@@ -125,6 +125,10 @@ a, .intro-left p {
     color: #1f2937;
 }
 
+.info {
+    padding: 85px;
+}
+
 .quotes {
     display: flex;
     flex-direction: column;
